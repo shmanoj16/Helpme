@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetails"
+    android:background="#493D26"
+    android:orientation="vertical"
+    android:padding="8dp">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4B0082"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Details"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="88dp"
+     android:background="#FEDDF4"
+     android:orientation="vertical"
+     android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karthikeyan"
+        android:textSize="20sp"
+        android:textColor="#7D0552"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31/16 Aj colony 2nd st,Royapuram 
+                      Chennai-13"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#7D0552"/>
+ </LinearLayout>
+ </LinearLayout>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#493D26"
+    android:orientation="vertical"
+    android:paddingTop="15dp"/>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#800517"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Care Taker Details"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#FFF5EE"
+     android:orientation="horizontal"
+     android:padding="2dp" >
+
+     <TextView
+         android:id="@+id/cname1"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="Madan "
+         android:textColor="#1F45FC" />
+
+     <TextView
+         android:id="@+id/cmob1"
+         android:layout_width="150dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="9092320976"
+         android:textColor="#1F45FC" />
+
+     <Button
+         android:id="@+id/call1"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:background="@drawable/call" />
+ </LinearLayout>
+
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF5EE"
+    android:orientation="horizontal"
+    android:padding="2dp">
+    <TextView
+        android:id="@+id/cname2"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Manoj "
+        android:textColor="#1F45FC"/>
+    <TextView
+        android:id="@+id/cmob2"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="9841234567"
+        android:textColor="#1F45FC"/>
+
+    <Button
+        android:id="@+id/call2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/call" />
+
+ </LinearLayout>
+ </LinearLayout>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#493D26"
+    android:orientation="vertical"
+    android:paddingTop="15dp"/>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F88017"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicinal Details"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="88dp"
+     android:background="#98FF98"
+     android:orientation="vertical"
+     android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/med"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:text="Azithral:Incase of Asthma/Wheezing"
+        android:textColor="#7D0552"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFE87C"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.12"
+        android:text="Call ambulance if necessary"
+        android:textColor="#7D0552" />
+
+    <Button
+        android:id="@+id/callamb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/amb" />
+</LinearLayout>
+
+ </LinearLayout>
+ </LinearLayout>
+</LinearLayout>

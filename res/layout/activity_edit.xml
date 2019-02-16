@@ -1,0 +1,234 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity"
+    android:background="#FFFFC2"
+    android:orientation="vertical"
+    android:padding="8dp">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFC2">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFC2"
+    android:orientation="vertical">
+    <!--User Detalis-->
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4B0082"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#4B0082"
+       android:orientation="horizontal"
+       android:gravity="center">
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="User Details"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#FFFFFF"
+           android:textSize="25sp" />
+   </LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#FEDDF4"
+     android:orientation="vertical"
+     android:padding="5dp" >
+
+    <EditText
+        android:id="@+id/userNameE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter User Name :"
+        android:textColor="#4B0082">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/userAddressE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter User Address :"
+        android:textColor="#4B0082" />
+
+   
+ </LinearLayout>
+ </LinearLayout>
+ 
+<!--Care Taker Detalis-->
+
+
+
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFC2"
+    android:orientation="vertical"
+    android:paddingTop="15dp"/>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#800517"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#800517"
+     android:orientation="horizontal"
+     android:gravity="center">
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="Care Taker Details"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#FFFFFF"
+         android:textSize="25sp" />
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#FFF5EE"
+     android:orientation="horizontal"
+     android:padding="2dp" >
+
+     <EditText
+         android:id="@+id/cnameE1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:ems="10"
+         android:hint="Care Taker 1 :"
+          android:textColor="#800517"/>
+
+     <EditText
+         android:id="@+id/cPhoneE1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:ems="10"
+         android:hint="Ph no :" 
+         android:textColor="#800517"/>
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#FFF5EE"
+     android:orientation="horizontal"
+     android:padding="2dp" >
+
+     <EditText
+         android:id="@+id/cnameE2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:ems="10"
+         android:hint="Care Taker 2 :"
+         android:textColor="#800517"/>
+
+     <EditText
+         android:id="@+id/cPhoneE2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:ems="10"
+         android:hint="Ph no :"
+         android:textColor="#800517"/>
+
+ </LinearLayout>
+
+ </LinearLayout>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFC2"
+    android:orientation="vertical"
+    android:paddingTop="15dp"/>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F88017"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#F88017"
+      android:orientation="horizontal"
+      android:gravity="center">
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="Medicinal Details"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="#FFFFFF"
+          android:textSize="25sp" />
+  </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#E3E4FA"
+     android:orientation="vertical"
+     android:padding="5dp" >
+
+     <EditText
+         android:id="@+id/medicalE"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10" 
+         android:hint="Enter any medical condition :"
+         android:textColor="#F88017"/>
+
+</LinearLayout>
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFC2"
+    android:orientation="vertical"
+    android:paddingTop="15dp"/>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:gravity="center">
+     <ImageButton
+         android:id="@+id/button1"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:scaleType="centerCrop"
+         android:src="@drawable/savedet"
+         android:onClick="save"/>
+ </LinearLayout>
+ </LinearLayout>
+</ScrollView>
+</LinearLayout>

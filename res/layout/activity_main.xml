@@ -1,0 +1,290 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFC2"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity" >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFC2">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFC2"
+    android:orientation="vertical">
+    <!--User Detalis-->
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4B0082"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#4B0082"
+       android:orientation="horizontal"
+       android:gravity="center">
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="User Details"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#FFFFFF"
+           android:textSize="25sp" />
+   </LinearLayout>
+ 
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#FEDDF4"
+     android:orientation="vertical"
+     android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/userNameM"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#7D0552"/>
+    <TextView
+        android:id="@+id/userAddrM"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#7D0552"/>
+ </LinearLayout>
+ </LinearLayout>
+ 
+<!--Care Taker Detalis-->
+
+
+
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFC2"
+    android:orientation="vertical"
+    android:paddingTop="15dp"/>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#800517"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#800517"
+     android:orientation="horizontal"
+     android:gravity="center">
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="Care Taker Details"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#FFFFFF"
+         android:textSize="25sp" />
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#FFF5EE"
+     android:orientation="horizontal"
+     android:padding="2dp" >
+
+     <TextView
+         android:id="@+id/cname1"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text=""
+         android:textColor="#1F45FC" />
+
+     <TextView
+         android:id="@+id/cmob1"
+         android:layout_width="131dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="0.59"
+         android:text=""
+         android:textColor="#1F45FC" />
+
+     <ImageButton
+         android:id="@+id/call1"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+		 android:src="@drawable/call"
+		 android:scaleType="centerCrop"
+         android:onClick="careCall1"/>
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#FFF5EE"
+     android:orientation="horizontal"
+     android:padding="2dp" >
+
+     <TextView
+         android:id="@+id/cname2"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text=""
+         android:textColor="#1F45FC" />
+
+     <TextView
+         android:id="@+id/cmob2"
+         android:layout_width="135dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="0.91"
+         android:text=""
+         android:textColor="#1F45FC" />
+
+     <ImageButton
+         android:id="@+id/call2"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+		 android:src="@drawable/call"
+		 android:scaleType="centerCrop"
+         android:onClick="careCall2"/>
+ </LinearLayout>
+
+ </LinearLayout>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFC2"
+    android:orientation="vertical"
+    android:paddingTop="15dp"/>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F88017"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#F88017"
+      android:orientation="horizontal"
+      android:gravity="center">
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="Medicinal Details"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="#FFFFFF"
+          android:textSize="25sp" />
+  </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="88dp"
+     android:background="#E3E4FA"
+     android:orientation="vertical"
+     android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/meddet"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:text=""
+        android:textColor="#7D0552"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF8DC"
+    android:orientation="horizontal"
+    android:padding="3dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.12"
+        android:text="Call ambulance(Use only if necessary)"
+        android:textColor="#7D0552" />
+
+    <ImageButton
+         android:id="@+id/amb"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+		 android:src="@drawable/amb"
+		 android:scaleType="centerCrop"
+         android:onClick="callAmb"/>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="#FFFFC2"
+    android:orientation="vertical"
+    android:paddingTop="15dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFC2"
+    android:gravity="center"
+    android:orientation="horizontal">
+ <Button
+        android:id="@+id/moveToBack"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:background="@drawable/m2b"
+        android:onClick="moveToBack"/>
+  <Button
+        android:id="@+id/panic"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:background="@drawable/sos"
+        android:onClick="panic"/>
+  <Button
+        android:id="@+id/exit"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:background="@drawable/exit"
+        android:onClick="exit"/>
+ </LinearLayout>
+ </LinearLayout>
+</ScrollView>
+</LinearLayout>
